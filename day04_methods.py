@@ -1,0 +1,16 @@
+import numpy as np
+print("------creating array-------")
+arr = np.arange(12)
+print(arr)
+print("---reshape the array-----")
+reshaped = arr.reshape((3,4))
+print(reshaped)
+print("----- it again falattened the array-------")
+flattend = reshaped.flatten()
+print(flattend)
+print("------return copy of array---------")
+reveled = flattend.ravel()
+print(reveled)
+print("------convert rows into columns-------")
+transpose = reshaped.T
+print(transpose)
